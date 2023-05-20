@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black ;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color:transparent;
+}
+
+.navbarlogo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 13px;
+    width:100px;
+    height: 70px;
+    margin-bottom: 15px;
+    
+}
+
+.text{
+    margin-left: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333;
+  }
+
+  .right-container{
+    margin-left: 450px;
+  }
+
+  .search-box{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.1s;
+  }
+
+  .search-box:focus{
+    width: 300px;
+    border-color: #1f80e0;
+}
+
+  .sub-btn{
+    background: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+  }
+
+.login-link{
+  color: #fff;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.slide__container{
+  margin-top: 12px;
+align-items: center;
+}
+
+.head{
+  margin-left: 80px;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.text2{
+  margin-left: 80px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #fff;
+  font-size: px;
+}
+
+.slide1{
+  position: relative;
+  z-index: -2;
+  margin-top: 1px;
+  width: 100%;
+}
+
+.slide2{
+  border-radius: 5px;
+  display: block;
+  margin-left: 650px;
+  width:900px;
+  height: 390px;
+  
+}
+
+.slides{
+  width: 50%;
+  height: 56%;
+  background: linear-gradient(to right, #000000 89%, #00030900);
+  position: absolute;
+}
+
+.video__imaege{
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.img__video{
+  position: relative;
+  min-width: calc(100%/5 - 10px);
+  width: calc(100%/5 - 10px);
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #030b17;
+}
+
+.img,
+.card-video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-video{
+  position: absolute;
+}
+
+.img__video:hover .img{
+  display: none;
+}
+
+.video__container{
+  margin-top: 15px;
+}
+
+.h1{
+  color: #fff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 57px;
+}
+
+.h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 60%;
+}
+
+.card{
+  position: relative;
+  min-width: 150px;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+  transition: .5s;
+}
+
+.poster1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__container{
+  position: relative;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.cardtext{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.cardsection{
+  position: relative;
+  width: 92%;
+  padding-left: 10px;
+  height: 220px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-behavior: smooth;
+}
+
+.cardsection:-webkit-scrollbar{
+  display: none;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card:hover .cardtext{
+  opacity: 1;
+}
+
+.text3{
+  color: #fff;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.watchlist-btn{
+  position: relative;
+  width: 85%;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  font-weight: 500;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.watchlist-btn::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 35px;
+  width: 35px;
+  background-image: url(images/add.png);
+  background-size: cover;
+  transform: scale(0.4);
+}
+
+.watchlist-btn:hover{
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
